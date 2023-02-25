@@ -1,0 +1,41 @@
+﻿<Page x:Class="WPFAPP.RegisterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFAPP"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegisterPage">
+
+    <Grid>
+        <Label x:Name="lbRegisterTitle" Content="Register" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontSize="24"/>
+        <Label x:Name="lbUsername" Content="Username" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="150,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="28" FontFamily="Times New Roman" FontSize="24" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbEmail" Content="Email" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="150,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="28" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <Label x:Name="lbPassword" Content="Password" HorizontalAlignment="Left" Margin="20,197,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <Label x:Name="lbConfirm" Content="Confirm" HorizontalAlignment="Left" Margin="20,254,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <Label x:Name="lbFullName" Content="Full Name" HorizontalAlignment="Left" Margin="410,304,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <TextBox x:Name="txtFullName" HorizontalAlignment="Left" Margin="540,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="28" FontFamily="Times New Roman" FontSize="24" VerticalContentAlignment="Center"/>
+        <Label x:Name="lbDateOfBirth" Content="Date of Birth" HorizontalAlignment="Left" Margin="20,304,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="150,197,0,0" VerticalAlignment="Top" Width="250" Height="28" RenderTransformOrigin="0.487,1.129" FontFamily="Times New Roman" FontSize="24" VerticalContentAlignment="Center"/>
+        <PasswordBox x:Name="txtConfirm" HorizontalAlignment="Left" Margin="150,254,0,0" VerticalAlignment="Top" Width="250" Height="28" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <DatePicker x:Name="dateDoB" HorizontalAlignment="Left" Margin="150,304,0,0" VerticalAlignment="Top" Height="28" Width="250" FirstDayOfWeek="Monday"/>
+        <Label x:Name="lbAvatar" Content="Avatar" HorizontalAlignment="Left" Margin="442,160,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="btnChooseAvt" Content="Choose Image From File" HorizontalAlignment="Left" Margin="500,254,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="31" Width="252" Click="btnChooseAvt_Click"/>
+        <Button x:Name="btnRegister" Content="Sign Up" HorizontalAlignment="Center" Margin="0,360,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="24" Click="btnRegister_Click"/>
+        <Image x:Name="imgAvatar" HorizontalAlignment="Left" Height="141" Margin="500,100,0,0" VerticalAlignment="Top" Width="250"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="500,100,0,201"/>
+
+    </Grid>
+</Page>

@@ -21,15 +21,16 @@ namespace WPFAPP
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly IOCProvider _provider;
+        private readonly IoC _ioC;
         public MainWindow()
         {
-            _provider = new IOCProvider();
+            _ioC = new IoC();
 
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            var loginPage = _provider.Provider.GetRequiredService<LoginPage>();
+            var loginPage = _ioC.Provider.GetRequiredService<LoginPage>();
+            var registerPage = _ioC.Provider.GetRequiredService<RegisterPage>();
             InitializeComponent();
-            frMain.Content = loginPage;
+            frMain.Content = registerPage;
         }
     }
 }

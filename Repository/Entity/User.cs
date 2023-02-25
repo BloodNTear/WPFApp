@@ -15,8 +15,8 @@ namespace Repository.Entity
         public string Password { get; set; }
         public string Email { get; set; }
         public string FullName { get; set; }
-        public bool Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public string Avatar { get; set; }
 
         //Relationship
         public virtual Role UserRole { get; set; }

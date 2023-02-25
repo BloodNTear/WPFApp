@@ -39,8 +39,18 @@ namespace WPFAPP
             }
             else
             {
-                MessageBox.Show($"Login failed");
+                MessageBox.Show($"Invalid Username or Password");
             }
+        }
+
+        private void btnSignUp_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void btnForgetPassword_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

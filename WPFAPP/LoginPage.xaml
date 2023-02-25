@@ -12,9 +12,11 @@
         <Label x:Name="lbLoginTitle" Content="Login" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top" Width="200" FontFamily="Algerian" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Label x:Name="lbUsername" Content="Username" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Width="160" FontFamily="Arial Black" FontSize="24"/>
         <Label x:Name="lbPassword" Content="Password" HorizontalAlignment="Left" Margin="200,260,0,0" VerticalAlignment="Top" Width="160" FontFamily="Arial Black" FontSize="24"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="400,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="40"/>
-        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="400,260,0,0" VerticalAlignment="Top" Width="250" Height="40"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="400,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="40" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="400,260,0,0" VerticalAlignment="Top" Width="250" Height="40" FontFamily="Times New Roman" FontSize="24" VerticalContentAlignment="Center"/>
         <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Center" Margin="0,330,0,0" VerticalAlignment="Top" Height="38" Width="92" FontFamily="Arial Black" FontSize="16" Click="btnLogin_Click"/>
+        <Button x:Name="btnSignUp" Content="Sign Up" HorizontalAlignment="Left" Margin="660,90,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16" Click="btnSignUp_Click" Height="30" Width="80"/>
+        <Button x:Name="btnForgetPassword" Content="Forget Password" HorizontalAlignment="Left" Margin="660,260,0,0" VerticalAlignment="Top" Height="40" Width="130" FontFamily="Arial Black" FontSize="13" Click="btnForgetPassword_Click"/>
 
     </Grid>
 </Page>

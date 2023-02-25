@@ -37,7 +37,6 @@ namespace Repository
         public DbSet<Order> orders { get; set; }
         #endregion
 
-        #region Data Seed
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -63,6 +62,7 @@ namespace Repository
                 .HasForeignKey<OrderDetail>(od => od.ProductID);
             #endregion
 
+            #region Data Seed
             #region Default Role And Permission
             modelBuilder.Entity<Role>().HasData(
                 new Role
@@ -87,7 +87,7 @@ namespace Repository
                     DateOfBirth = DateTime.ParseExact("16/01/2002", "dd/MM/yyyy", CultureInfo.InvariantCulture),
                     Email = "ColorfulKhalid@gmail.com",
                     FullName = "Khalid Mai",
-                    Gender = true,
+                    Avatar = "./Images/Khalid.png",
                     RoleName = "Admin"
                 }
             );
@@ -114,7 +114,8 @@ namespace Repository
                 }
                 );
             #endregion
+            #endregion
         }
-        #endregion
+
     }
 }

@@ -78,3 +78,5 @@ D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\WPFAPP\bin\Debug\net6.0
 D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\WPFAPP\bin\Debug\net6.0-windows\Repository.pdb
 D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\WPFAPP\bin\Debug\net6.0-windows\AutoMapper.dll
 D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\WPFAPP\bin\Debug\net6.0-windows\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\WPFAPP\obj\Debug\net6.0-windows\RegisterPage.g.cs
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\WPFAPP\obj\Debug\net6.0-windows\RegisterPage.baml

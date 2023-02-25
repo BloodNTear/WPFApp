@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="E Store" Height="450" Width="800">
     <Grid x:Name="grMain">
-        <Frame x:Name="frMain" Content="Frame"/>
+        <Frame x:Name="frMain" Content=""/>
 
     </Grid>
 </Window>

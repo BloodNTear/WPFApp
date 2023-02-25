@@ -91,19 +91,19 @@ namespace Repository.Migrations
                     b.HasData(
                         new
                         {
-                            PermissionID = new Guid("4d888760-d5fc-4e8e-be18-8427c3e21b58"),
+                            PermissionID = new Guid("d2eb49e4-3d0c-4c4f-8428-f6504ffea214"),
                             PermissionName = "Edit",
                             RoleName = "Admin"
                         },
                         new
                         {
-                            PermissionID = new Guid("07d63881-42cf-4fa4-8db9-3351c5e07f6e"),
+                            PermissionID = new Guid("1ac4f79a-d2ef-4755-a4e1-23371c43841d"),
                             PermissionName = "Update",
                             RoleName = "Admin"
                         },
                         new
                         {
-                            PermissionID = new Guid("4d57ed17-b1a4-4fd4-ae99-097486fe34bb"),
+                            PermissionID = new Guid("36631d84-9cff-478e-b0ff-8f272699b473"),
                             PermissionName = "Delete",
                             RoleName = "Admin"
                         });
@@ -137,7 +137,7 @@ namespace Repository.Migrations
                     b.HasData(
                         new
                         {
-                            ProductID = new Guid("44a2834d-66e3-4b31-8aac-afe141b2cad1"),
+                            ProductID = new Guid("340ccd90-9cbe-4018-9a49-443e349661f7"),
                             Description = "Description",
                             Image = "Image",
                             Price = 50.049999999999997,
@@ -145,7 +145,7 @@ namespace Repository.Migrations
                         },
                         new
                         {
-                            ProductID = new Guid("4f08b49b-ffc5-459b-bbc0-ef5fe25bb444"),
+                            ProductID = new Guid("eef1c3f4-3a1c-42a7-94cb-5a7dab4c78e8"),
                             Description = "Description a little bit different from above",
                             Image = "Irregular Image",
                             Price = 1.0069999999999999,
@@ -174,6 +174,10 @@ namespace Repository.Migrations
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("Avatar")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 
@@ -184,9 +188,6 @@ namespace Repository.Migrations
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("Gender")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -206,10 +207,10 @@ namespace Repository.Migrations
                         new
                         {
                             Username = "Admin",
+                            Avatar = "./Images/Khalid.png",
                             DateOfBirth = new DateTime(2002, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "ColorfulKhalid@gmail.com",
                             FullName = "Khalid Mai",
-                            Gender = true,
                             Password = "HelloWorld",
                             RoleName = "Admin"
                         });
