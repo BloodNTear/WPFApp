@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAPP", "WPFAPP\WPFAPP.csproj", "{D0CD2A33-8575-48DF-82BD-B7657978E071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{52E6F302-1580-4617-8F2F-5D4AF122F320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{376BE347-AD4A-43DE-AA29-0F63318A25DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0CD2A33-8575-48DF-82BD-B7657978E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CD2A33-8575-48DF-82BD-B7657978E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CD2A33-8575-48DF-82BD-B7657978E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CD2A33-8575-48DF-82BD-B7657978E071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E6F302-1580-4617-8F2F-5D4AF122F320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E6F302-1580-4617-8F2F-5D4AF122F320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E6F302-1580-4617-8F2F-5D4AF122F320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E6F302-1580-4617-8F2F-5D4AF122F320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376BE347-AD4A-43DE-AA29-0F63318A25DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376BE347-AD4A-43DE-AA29-0F63318A25DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376BE347-AD4A-43DE-AA29-0F63318A25DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376BE347-AD4A-43DE-AA29-0F63318A25DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF641FCA-C72E-4E27-A0B4-B847D6F836CF}
+	EndGlobalSection
+EndGlobal

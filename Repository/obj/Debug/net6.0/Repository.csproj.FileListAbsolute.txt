@@ -1,0 +1,14 @@
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\bin\Debug\net6.0\Repository.deps.json
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\bin\Debug\net6.0\Repository.dll
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\bin\Debug\net6.0\Repository.pdb
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.dll
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\refint\Repository.dll
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.pdb
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+D:\FPT-SE\Semester-07-Spring-2023\PRN221\Projects\WPFAPP\Repository\obj\Debug\net6.0\ref\Repository.dll
